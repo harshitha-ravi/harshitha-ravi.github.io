@@ -65,7 +65,7 @@ if (!doNotTrack) {
         --text-secondary-color: #6c757d;
         --background-color: #eaedf0;
         --secondary-background-color: #64ffda1a;
-        --primary-color: #007bff;
+        --primary-color: #343a40;
         --secondary-color: #f8f9fa;
 
          
@@ -111,6 +111,15 @@ if (!doNotTrack) {
     }
 </style>
 
+<style>
+    .hero {
+        background-image: url("images/heroBackground.jpeg");
+        background-size: cover;
+        background-position: center;
+    }
+</style>
+
+
 <meta name="description" content=ZgotmplZ>
 <link rel="stylesheet" href="https://harshitha-ravi.github.io/css/index.css" media="all">
 <link rel="stylesheet" href="https://harshitha-ravi.github.io/css/projects.css" media="all">
@@ -149,23 +158,9 @@ Harshitha
 
 
 <header>
-    <nav class="pt-3 navbar navbar-expand-lg ">
+    <nav class="pt-3 navbar navbar-expand-lg">
         <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
-            
-            <a class="navbar-brand primary-font text-wrap" href="https://harshitha-ravi.github.io/">
-                
-                <img src="" width="30" height="30"
-                    class="d-inline-block align-top">
-                
-                
-            </a>
 
-            
-                <div>
-                    <input id="search" autocomplete="off" class="form-control mr-sm-2 d-none d-md-block" placeholder='Ctrl &#43; k to Search...'
-                        aria-label="Search" oninput="searchOnChange(event)">
-                </div>
-            
 
             
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
@@ -186,12 +181,6 @@ Harshitha
                         </li>
                     
 
-                    
-                    <li class="nav-item navbar-text">
-                        <a class="nav-link" href="https://harshitha-ravi.github.io/#about" aria-label="about">
-                            I&#39;m Open to work from December 2023
-                        </a>
-                    </li>
                     
 
                     
@@ -238,33 +227,84 @@ Harshitha
     </nav>
 </header>
 <div id="content">
-<section id="about" class="py-0 py-sm-5">
-    <div class="container bg-transparent">
-        <h3 class="text-center bg-transparent">I&#39;m Open to work from December 2023</h3>
-        <div class="bg-transparent row justify-content-center px-3 py-5">
-            
-            <div class="col-sm-12 col-md-8 col-lg-4 mb-5 mb-sm-0 mb-md-5 mb-lg-0 d-none d-sm-none d-md-block">
-                <div class="image d-flex px-5">
-                    <img src="https://harshitha-ravi.github.io/images/tn.png" class="img-thumbnail mx-auto rounded-circle" alt="">
+<section id="hero" class="py-5 align-middle">
+    <div class="container px-3 px-sm-5 px-md-5 px-lg-5 pt-lg-3">
+        <div class="row">
+            <div class="background-image" style="background-image: url('images/heroBackground.jpg');">
+        </div>
+            <div class="col-sm-12 col-md-12 col-lg-8 content " id="primary-font">
+
+                <h2>
+                    Harshitha Ravi
+                </h2>
+                <h3>
+                    
+                </h3>
+                <p class="hero-content">
+                    Java Developer
+                </p>
+                <div class="row">
+                    <div class="col-auto h-100">
+                        
+                        <a href="https://drive.google.com/file/d/183LJNTdvrdfUoaJh8uSngbA5KnYDkPeN/view?usp=sharing" class="btn">
+                            Resume
+                        </a>
+                        
+                    </div>
+                    <div class="col-auto px-0 h-100"><span>
+    
+    <span class="px-1">
+        <a href="https://github.com/harshitha-ravi" target="_blank" class="btn social-icon">
+            <i class="fab fa-github"></i>
+        </a>
+    </span>
+    
+    <span class="px-1">
+        <a href="https://www.linkedin.com/in/harshitharavi" target="_blank" class="btn social-icon">
+            <i class="fab fa-linkedin"></i>
+        </a>
+    </span>
+    
+    <span class="px-1">
+        <a href="https://www.instagram.com/hershey_holmes/" target="_blank" class="btn social-icon">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </span>
+    
+
+    
+</span></div>
                 </div>
             </div>
-            
-            <div class="col-sm-12 col-md-12 col-lg-8 content">
-                CS grad.
-
-                
-                Skills:
-                <ul>
-                    
-                    <li>Java</li>
-                    
-                    <li>Team Player</li>
-                    
-                </ul>
-                
+            <div class="col-sm-12 col-md-12 col-lg-4">
+                <div class="row justify-content-center">
+                    <div class="col-sm-12 col-md-9 pt-5 image  px-5 px-md-5 px-lg-0 text-center">
+                        <img src="images/profile1.jpg"
+                            class="img-thumbnail mx-auto"
+                            alt=""
+                        >
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    
+    <div class="hero-bottom-svg d-md-block d-lg-block d-none">
+
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+    <defs>
+        <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#F271A7" />
+            <stop offset="50%" stop-color="#63E2C6" />
+            <stop offset="100%" stop-color="#FFC947" />
+        </linearGradient>
+    </defs>
+    <rect width="100%" height="100%" fill="url(#gradient)" />
+    <circle cx="50%" cy="50%" r="40%" fill="none" stroke="#FFFFFF" stroke-width="4%" />
+</svg>
+    </div>
+    
 </section>
 
 

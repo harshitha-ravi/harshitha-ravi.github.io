@@ -1,12 +1,13 @@
 
 /* Default font for body */
 body {
-    font-family: "Lora", serif !important;
+    /*font-family: "Lora", serif !important;*/
+    font-family: 'IBM Plex Mono', monospace !important;
 }
 
 /* secondary font */
 .secondary-font, #secondary-font {
-    font-family: "Lora", serif;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 /* primary font */
